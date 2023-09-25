@@ -12,6 +12,9 @@
  <!-- Common - Kernel 4.19 -->
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
 
+ <!-- Prebuilt Kernel -->
+  <project path="device/xiaomi/kernel-mithorium" name="android_device_xiaomi_kernel-mithorium" groups="device" remote="mi-thorium" revision="master"/>
+
  <!-- Hardware -->
   <project path="hardware/mithorium/aosp" name="android_hardware_mithorium_aosp" groups="device" remote="mi-thorium" revision="a13"/>
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
