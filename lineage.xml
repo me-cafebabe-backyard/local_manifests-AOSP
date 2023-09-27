@@ -18,6 +18,7 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
