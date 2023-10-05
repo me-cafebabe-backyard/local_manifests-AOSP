@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mi-thorium"
            fetch="ssh://git@gitea.lan/Mi-Thorium"
-           revision="a13/master" />
+           revision="a14/master" />
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a14/aosp"/>
