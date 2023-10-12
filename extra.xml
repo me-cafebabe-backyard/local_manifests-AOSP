@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="divested-mobile"
+            fetch="https://gitlab.com/divested-mobile" />
+
+    <project path="vendor/extra" name="me-cafebabe/android_vendor_extra" groups="myextra" remote="gitea" revision="master"/>
+    <project path="vendor/extra-priv" name="me-cafebabe/android_vendor_extra-priv" groups="myextra" remote="gitea" revision="master"/>
+
+    <project path="ih8sn" name="me-cafebabe/ih8sn" groups="myextra" remote="gitea" revision="master"/>
+
+    <project path="vendor/mulch/build" name="me-cafebabe/android_vendor_mulch_build" groups="myextra" remote="gitea" revision="master">
+        <linkfile src="Android.mk" dest="vendor/mulch/Android.mk" />
+    </project>
+    <project path="vendor/mulch/source" name="mulch" groups="myextra" remote="divested-mobile" revision="master"/>
+
+    <project path="device/xiaomi/ringtones" name="me-cafebabe/android_device_xiaomi_ringtones" groups="myextra" remote="gitea" revision="master"/>
+    <project path="vendor/xiaomi/ringtones" name="me-cafebabe/android_vendor_xiaomi_ringtones" groups="myextra" remote="gitea" revision="master"/>
+
+    <project path="external/dlopener" name="Archive/sebaubuntu_android_external_dlopener" groups="myextra" remote="gitea" revision="lineage-18.1"/>
+
+    <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera.git" groups="myextra" remote="gitmirror" revision="arrow-12.0-a3"/>
+
+    <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio.git" groups="myextra" remote="gitmirror" revision="qcom"/>
+</manifest>
