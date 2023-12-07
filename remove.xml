@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project name="device/google/bluejay-kernel"/>
+    <remove-project name="device/google/coral-kernel"/>
+    <remove-project name="device/google/felix-kernel"/>
+    <remove-project name="device/google/lynx-kernel"/>
+    <remove-project name="device/google/pantah-kernel"/>
+    <remove-project name="device/google/raviole-kernel"/>
+    <remove-project name="device/google/redbull-kernel"/>
+    <remove-project name="device/google/tangorpro-kernel"/>
+    <remove-project name="device/google/shusky-kernel"/>
+    <remove-project name="device/google/sunfish-kernel"/>
+</manifest>
