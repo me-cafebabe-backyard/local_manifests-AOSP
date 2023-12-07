@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" />
+  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" revision="master" />
 </manifest>
